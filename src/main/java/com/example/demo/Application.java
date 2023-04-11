@@ -22,6 +22,14 @@ public class Application {
                     25
             );
             studentRepository.save(yogesh);
+
+            Student yogi = new Student(
+                    "yogi",
+                    "sharma",
+                    "yogi.sharma@gmail.com",
+                    25
+            );
+            studentRepository.save(yogesh);
         };
     }
 
